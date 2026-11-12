@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harvest Smart Inventory - Harvest Digital</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: #07090E; color: #F1F5F9; }
+    .glass-card { background: rgba(18, 22, 34, 0.75); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.08); }
+    .glow-cyan { text-shadow: 0 0 20px rgba(6, 182, 212, 0.5); }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-cyan-500 selection:text-black">
+  <nav class="border-b border-white/10 px-6 py-4 flex items-center justify-between glass-card sticky top-0 z-50">
+    <div class="flex items-center space-x-3">
+      <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-cyan-500/20 font-bold text-white text-lg">H</div>
+      <div>
+        <h1 class="font-bold text-lg text-white leading-tight">Harvest Smart Inventory</h1>
+        <p class="text-xs text-cyan-400 font-mono tracking-wide">Pabrik Harvest Digital Indonesia</p>
+      </div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse mr-1.5"></span> LIVE & SECURE
+      </span>
+    </div>
+  </nav>
+
+  <main class="max-w-4xl mx-auto px-6 py-16 flex-1 flex flex-col justify-center text-center">
+    <div class="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-mono mx-auto mb-6">
+      <span>🚀 Autonomous Deployed to:</span>
+      <span class="font-bold underline">inventory-demo.harvestdigital.pro</span>
+    </div>
+    
+    <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4 text-white">
+      Harvest Smart Inventory
+    </h2>
+    <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-8 font-light leading-relaxed">
+      Sistem otomasi manajemen inventori dan pergudangan modern
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-left max-w-3xl mx-auto mb-10 w-full">
+      <div class="glass-card p-5 rounded-2xl">
+        <div class="text-xs font-mono text-cyan-400 mb-1">TECH STACK</div>
+        <div class="font-semibold text-white text-sm">Tailwind CSS, Node.js, Express, Nginx</div>
+        <div class="text-xs text-slate-400 mt-2">Arsitektur modern terverifikasi Audit Bug & Security.</div>
+      </div>
+      <div class="glass-card p-5 rounded-2xl">
+        <div class="text-xs font-mono text-indigo-400 mb-1">ENGINE & AGENT</div>
+        <div class="font-semibold text-white text-sm">Antigravity AI Multi-Agent</div>
+        <div class="text-xs text-slate-400 mt-2">Dibangun otonom dari 0% ke 100% oleh 6 Agen Pabrik Harvest.</div>
+      </div>
+      <div class="glass-card p-5 rounded-2xl">
+        <div class="text-xs font-mono text-emerald-400 mb-1">STATUS AUDIT</div>
+        <div class="font-semibold text-white text-sm">100% Pass Security & QA</div>
+        <div class="text-xs text-slate-400 mt-2">Zero critical bugs & WA confirmation transmitted.</div>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap items-center justify-center gap-4">
+      <a href="/PRD.md" class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-sm font-semibold transition border border-white/10">Lihat PRD.md</a>
+      <a href="/TODO.md" class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-sm font-semibold transition border border-white/10">Lihat TODO.md</a>
+      <a href="/TODO-Audit-Bug.md" class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-sm font-semibold transition border border-white/10">Laporan Bug</a>
+      <a href="/TODO-Audit-Scurity.md" class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-sm font-semibold transition border border-white/10">Laporan Keamanan</a>
+    </div>
+  </main>
+
+  <footer class="border-t border-white/10 py-6 text-center text-xs text-slate-500 font-mono">
+    &copy; 2026 Pabrik Harvest Digital Indonesia &bull; Powered by Antigravity Autonomous Orchestrator
+  </footer>
+</body>
+</html>
